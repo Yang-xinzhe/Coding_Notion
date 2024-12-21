@@ -4,7 +4,6 @@
 #include <sys/mman.h>
 #include <unistd.h>
 
-
 #define GPIO_BASE_ADDR 0xF0200000 // GPIO0 控制器基地址
 #define GPIO_REG_SIZE 0x1000      // 映射大小 4KB
 
